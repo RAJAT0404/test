@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import SVG from "@/public/CONTACT.svg";
-import ReCAPTCHA from "react-google-recaptcha";
+// import ReCAPTCHA from "react-google-recaptcha";
 
 export default function Contact() {
   const Router = useRouter();
@@ -17,7 +17,7 @@ export default function Contact() {
   const [value, setValue] = useState();
   const [errors, setErrors] = useState({});
   const [submitting, setSubmitting] = useState(false);
-  const [captcha, setCaptcha] = useState("");
+  // const [captcha, setCaptcha] = useState("");
   const [show, setShow] = useState(false);
 
   const isBrowser = () => typeof window !== "undefined";
@@ -194,10 +194,10 @@ export default function Contact() {
                 ></textarea>
               </div>
               <div className="form-group">
-                <ReCAPTCHA
+                {/* <ReCAPTCHA
                   onChange={setCaptcha}
                   sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
-                />
+                /> */}
               </div>
 
               <button type="submit" className="btn btn-primary">
