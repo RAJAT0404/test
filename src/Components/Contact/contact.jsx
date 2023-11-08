@@ -78,9 +78,9 @@ export default function Contact() {
       })
         .then((response) => response.json())
         .then((data) => {
-          console.log("Form data sent to HubSpot:", data);
+        
           if (captcha) {
-            console.log("yes its verified", captcha);
+          
           }
           setSubmitting(false);
           setInputFields({
@@ -91,7 +91,7 @@ export default function Contact() {
           setValue("");
         })
         .catch((error) => {
-          console.error("Error submitting form to HubSpot:", error);
+
           alert("Error submitting form. Please try again later.");
           setSubmitting(false);
         });
