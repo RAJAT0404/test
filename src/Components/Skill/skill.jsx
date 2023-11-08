@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Html from "@/public/sliderimage/html-icon.png";
 import Css from "@/public/sliderimage/css-icon.png";
-import Js from "@/public/sliderimage/Js-icon.png";
+import Js from "@/public/sliderimage/js-icon.png";
 import Jquery from "@/public/sliderimage/jquery-icon.png";
 import Rect from "@/public/sliderimage/reactjs-icon.png";
 

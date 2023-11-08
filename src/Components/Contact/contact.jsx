@@ -4,7 +4,7 @@ import Script from "next/script";
 import { useRouter } from "next/router";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import SVG from "@/public/Contact.svg";
+import SVG from "@/public/CONTACT.svg";
 import ReCAPTCHA from "react-google-recaptcha";
 
 export default function Contact() {
