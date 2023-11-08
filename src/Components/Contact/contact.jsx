@@ -17,7 +17,7 @@ export default function Contact() {
   const [value, setValue] = useState();
   const [errors, setErrors] = useState({});
   const [submitting, setSubmitting] = useState(false);
-  // const [captcha, setCaptcha] = useState("");
+  const [captcha, setCaptcha] = useState("");
   const [show, setShow] = useState(false);
 
   const isBrowser = () => typeof window !== "undefined";
